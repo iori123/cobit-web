@@ -1,5 +1,5 @@
 const express = require('express')
-const morgan  = require ('morgan')
+// const morgan  = require ('morgan')
 const path = require('path')
 
 const hbs = require ( 'hbs') // template engine 
@@ -7,7 +7,7 @@ const hbs = require ( 'hbs') // template engine
 require('./hbs/helpers')
 const app = express()
 
-app.use(morgan('dev'))
+// app.use(morgan('dev'))
 
 app.use( express.static( path.join( __dirname , 'public')))
 
