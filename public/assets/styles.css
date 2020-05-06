@@ -1,0 +1,18 @@
+:root {
+    --azulejo : #353A3F ;
+}
+
+body {
+    font-size : 14px;
+    border : 1px dashed black;
+    min-height: 100vh;
+}
+footer {
+    position: fixed;
+    width : 100% ;
+    bottom: 0px; 
+    text-align:center;
+    background-color: var(--azulejo);
+    color : white;
+    padding: 1rem  5rem ;
+}
